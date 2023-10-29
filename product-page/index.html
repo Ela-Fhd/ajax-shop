@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="ion.rangeSlider-master/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <!--navbar start-->
+    <div class="container-fluid">
+        <header>
+            <div class="mainContainer">
+                <navbar>
+                    <div class="menue-icons">
+                        <ion-icon class="icon btn-close" name="close-outline"></ion-icon>
+                        <ion-icon class="icon outline" name="menu-outline"></ion-icon>
+                    </div>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="" class="text-decoration-none">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                            </a>
+                            <ul class="user-sub-menue">
+                                <li><a href="#" class="text-capitalize text-center">sign in</a></li>
+                                <div class="container">
+                                    <div class="dropdown-divider" style="border-top:1px solid #eb3007 ;"></div>
+                                </div>
+                                <li><a href="#" class="text-capitalize text-center">sign up</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="../index.html" class="text-decoration-none">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">products
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                            </a>
+                            <ul class="sub-menue"></ul>
+                        </li>
+                        <li>
+                            <a href="#">about us</a>
+                        </li>
+
+                    </ul>
+                    <li class="move-right">
+                        <a href="shoppingCartpage.html" style="text-decoration:none ;"><span
+                                class="badge badge-pill badge-danger">0</span> <ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </li>
+                </navbar>
+            </div>
+        </header>
+    </div>
+    <!--navbar end-->
+
+
+    <!-- scrollbar start -->
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <!-- scrollbar end -->
+
+
+    <!-- scroll to top start -->
+    <button id="ScrollToTop">
+        <ion-icon name="arrow-up-outline" id="ScrollToTopIcon"></ion-icon>
+    </button>
+    <!-- scroll to top end -->
+
+
+    <!-- product Card start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-9 order-1 order-md-0">
+                <div class="container my-5">
+                    <div class="row card-section">
+                        <!-- cards here... -->
+                    </div>
+                    <!-- pagination start -->
+                    <div class="pageCenter my-3">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center ltr">
+                                <li class="page-item ">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <!-- pagination number here -->
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- pagination start -->
+
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 rangeslider order-0 order-md-0 ">
+                <div class="card">
+                    <h5 class="card-header text-center text-capitalize">filter price</h5>
+                    <div class="card-body">
+                        <div class="range-slider">
+                            <input type="text" class="price-slider" name="my_range" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h5 class="text-center text-capitalize">Filter</h5>
+                    </div>
+                    <div class="card-body py-2 px-4">
+                        <div class="checkboxes"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- product Card end -->
+
+        <!-- footer start -->
+        <footer">
+            <div class="container-fluid border-top border-secondary">
+                <div class="row">
+                    <div class="col-12 p-3">
+                        <div class="row">
+                            <div class="col-md-9 col-6">
+                                <div class="row px-3">
+                                    <a href="#" class="col-12 p-2 text-capitalize text-light footer-item">about us</a>
+                                    <a href="#" class="col-12 p-2 text-capitalize text-light footer-item">work with
+                                        us</a>
+                                    <a href="#" class="col-12 p-2 text-capitalize text-light footer-item"><ion-icon
+                                            name="call-outline"></ion-icon> Tell:(+98)9307575598</a>
+                                    <a href="#" class="col-12 p-2 text-capitalize text-light footer-item"><ion-icon
+                                            name="mail-outline"></ion-icon> Email: Elahe.Fahmideh@gmail.com</a>
+                                    <a href="#"
+                                        class="col-12 p-2 text-capitalize text-muted footer-item">address:IRAN-Tehran</a>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 d-flex justify-content-end">
+                                <ion-icon name="call-outline" class="p-2 footer-icon"></ion-icon>
+                                <ion-icon name="logo-instagram" class="p-2 footer-icon"></ion-icon>
+                                <ion-icon name="logo-facebook" class="p-2 footer-icon"></ion-icon>
+                                <ion-icon name="logo-rss" class="p-2 footer-icon"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-muted d-flex justify-content-center align-items-center">
+                                <span>Copyright @ 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <!-- footer end -->
+
+
+
+
+
+            <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+            <script src="ion.rangeSlider-master/js/ion.rangeSlider.js"></script>
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+            <script src="Js/jquery-cookie/src/jquery.cookie.js"></script>
+            <script src="Js/Script.js"></script>
+</body>
+
+</html>

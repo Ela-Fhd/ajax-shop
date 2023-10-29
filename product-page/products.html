@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="ion.rangeSlider-master/css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="Flat-HTML5-Palette-Color-Picker-For-jQuery-colorPick-js/src/colorPick.css">
+    <link rel="stylesheet" href="Flat-HTML5-Palette-Color-Picker-For-jQuery-colorPick-js/src/colorPick.dark.theme.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Title</title>
+</head>
+<body>
+<!--navbar start-->
+<div class="container-fluid">
+    <header>
+        <div class="mainContainer">
+            <navbar>
+                <div class="menue-icons">
+                    <ion-icon class="icon btn-close" name="close-outline"></ion-icon>
+                    <ion-icon class="icon outline" name="menu-outline"></ion-icon>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="" class="text-decoration-none">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <ion-icon name="caret-down-outline"></ion-icon>
+                        </a>
+                        <ul class="user-sub-menue">
+                            <li><a href="#" class="text-capitalize text-center">sign in</a></li>
+                            <div class="container"><div class="dropdown-divider" style="border-top:1px solid #eb3007 ;"></div></div>
+                            <li><a href="#" class="text-capitalize text-center" >sign up</a></li>
+                        </ul>
+                    </li> 
+                    <li>
+                        <a href="./index.html" class="text-decoration-none">Home</a>
+                    </li>
+                     <li>
+                        <a href="#">products
+                            <ion-icon name="caret-down-outline"></ion-icon>
+                        </a>
+                        <ul class="sub-menue"></ul>
+                    </li> 
+                    <li>
+                        <a href="#">about us</a>
+                    </li>
+                </ul>
+                 <li class="move-right">
+                    <a href="shoppingCartpage.html" style="text-decoration:none"><span class="badge badge-pill badge-danger">0</span>  <ion-icon name="cart-outline"></ion-icon></a>
+                </li>
+            </navbar>
+        </div>
+    </header>
+</div>
+<!--navbar end-->
+
+<!-- product details section start -->
+<div class="container my-3">
+    <div class="row">
+        <div class="col-lg-4 col-xs-12 mb-2">
+            <div class="card product-img">
+                <div class="card-body" style="height: 370px;">
+                    <img src="" alt="" class="img-fluid w-100 h-100">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8 col-xs-12">
+          <div class="row">
+              <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+
+                        <dl class="row">
+                            <dt class="col-xs-3 col-md-3 text-light p-2 m-2 nowrap">Name</dt>
+                            <dd class="col-xs-3 col-md-8 text-light p-2 m-2" data-product="Name"></dd>
+
+                            <dt class="col-xs-2 col-md-3 text-light p-2 m-2 nowrap">price</dt>
+                            <dd class="col-xs-9 col-md-8 text-light p-2 m-2" data-product="price"></dd>
+
+                                <div class="col-sm-3 text-light mt-3">Choose Color:</div>
+                                <div class="col-sm-8 mt-3 ml-3">
+                                    <div class="colorPickSelector"></div>
+                                </div>
+
+                                <div class="accardion my-3">
+                                    <div class="accardion-items">
+                                        <div class="accardion-title text-light"><strong>description</strong></div>
+                                        <div class="accardion-answer text-justify text-light" data-product="description"></div>
+                                    </div>
+                                    </div>
+                            <hr>
+
+                           <div class="col-12">
+                            <div class="row d-flex align-items-center justify-content-between">
+                                <div class="col-md-5 col-sm-12">
+                               <form action="">
+                                      <div class="input-group mb-2">
+                                        <div class="input-group-prepend">
+                                          <div class="input-group-text"><ion-icon name="bag-add-outline"></ion-icon></div>
+                                        </div>
+                                        <input type="number"  value="1" class="form-control text-center input-order" min="0" data-product="Qty">
+                                      </div>
+                                    </form>
+                                </div>    
+                                <div class="col-md-3">
+                                    <button type="button" class="text-capitalize addToCart">add to cart</button>
+                                </div>
+                            </div>
+                           </div>
+                        </dl>
+                    
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+    </div>
+</div>
+<!-- product details section end -->
+
+
+
+<!-- scrollbar start -->
+<div id="Progressbar"></div>
+<div id="scrollpath"></div>
+<!-- scrollbar end -->
+
+
+<!-- scroll to top start -->
+<button id="ScrollToTop">
+    <ion-icon name="arrow-up-outline" id="ScrollToTopIcon"></ion-icon>
+</button>
+<!-- scroll to top end -->
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="Flat-HTML5-Palette-Color-Picker-For-jQuery-colorPick-js/src/colorPick.js"></script>r
+<script src="elevatezoom/jquery.elevatezoom.js"></script>
+<script src="ion.rangeSlider-master/js/ion.rangeSlider.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="Js/jquery-cookie/src/jquery.cookie.js"></script>
+<script src="Js/Script.js"></script>
+</body>
+</html>

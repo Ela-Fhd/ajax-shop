@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" , maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="lightslider-master/dist/css/lightslider.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="lightslider-master/dist/js/lightslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+    <!--navbar start-->
+    <div class="container-fluid header">
+        <header>
+            <div class="mainContainer">
+                <navbar>
+                    <div class="menue-icons">
+                        <ion-icon class="icon btn-close" name="close-outline"></ion-icon>
+                        <ion-icon class="icon outline" name="menu-outline"></ion-icon>
+                    </div>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="#" class="text-decoration-none">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <ion-icon name="caret-down-outline"></ion-icon>
+                            </a>
+                            <ul class="sub-menue">
+                                <li><a href="#" class="text-capitalize text-center text-decoration-none">sign in</a>
+                                </li>
+                                <div class="container">
+                                    <div class="dropdown-divider" style="border-top:1px solid #eb3007 ;"></div>
+                                </div>
+                                <li><a href="#signUpForm" class="text-decoration-none text-capitalize text-center">sign
+                                        up</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#slider-cards" class="text-decoration-none">products</a>
+                        </li>
+                        <li>
+                            <a href="#gallery-section" class="text-decoration-none">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">sale</a>
+                        </li>
+                        <li>
+                            <a href="#inventory" class="text-decoration-none">about us</a>
+                        </li>
+                    </ul>
+                    <li class="list-unstyled search order-1 d-none d-md-block">
+                        <div class="container mb-1 mr-4">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="input-group w-100">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1"><ion-icon
+                                                    name="search-outline"></ion-icon></span>
+                                        </div>
+                                        <input type="search" class="form-control" placeholder="search">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="move-right list-unstyled order-0">
+                        <a href="#"><span class="badge badge-pill badge-danger">0</span><ion-icon
+                                name="cart-outline"></ion-icon></a>
+                    </li>
+                </navbar>
+            </div>
+        </header>
+    </div>
+    <!--navbar end-->
+
+    <!-- slider cards start -->
+    <div class="container p-1" id="slider-cards">
+        <div class="container">
+            <h3 class="gallery-subject align-self-center">our
+                products</h3>
+        </div>
+        <ul id="responsive">
+            <!-- slider cards here -->
+        </ul>
+        <div class="container p-2 my-2">
+            <button class="btn-more"><a href="product-page/index.html" target="_blank"
+                    class="text-decoration-none text-light text-capitalize">more</a></button>
+        </div>
+    </div>
+    <!-- slider cards end -->
+
+    <!-- Gallery start -->
+    <div class="gallery-section">
+        <div class="inner-section p-2" id="gallery-section">
+            <h3 class="gallery-subject align-self-center">our Gallery</h3>
+            <div class="border"></div>
+            <div class="gallery">
+
+                <a href="images/img-1.jpg" class="img">
+                    <img src="images/img-1.jpg" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-2.jpg" class="img">
+                    <img src="images/img-2.jpg" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-3.png" class="img">
+                    <img src="images/img-3.png" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-4.jpg" class="img">
+                    <img src="images/img-4.jpg" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-5.jpg" class="img">
+                    <img src="images/img-5.jpg" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-6.png" class="img">
+                    <img src="images/img-6.png" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-1.jpg" class="img">
+                    <img src="images/img-1.jpg" alt="" class="img-gallery">
+                </a>
+
+                <a href="images/img-2.jpg" class="img">
+                    <img src="images/img-2.jpg" alt="" class="img-gallery">
+                </a>
+
+            </div>
+        </div>
+
+        <!-- card Gallery start -->
+        <div class="Gallery-section mt-2">
+            <div class="container Card-container">
+
+                <div class="card card-Gallery">
+                    <div class="img-box">
+                        <img src="images/img-6.png" alt="" class="img-fluid">
+                        <div class="more">more...</div>
+                    </div>
+                    <div class="content">
+                        <h2>card-1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum exercitationem
+                            fugit illum incidunt inventore optio quasi, sit. Fuga, reprehenderit.</p>
+                        <div class="less">less...</div>
+                    </div>
+
+                </div>
+                <div class="card card-Gallery ">
+                    <div class="img-box">
+                        <img src="images/img-2.jpg" alt="" class="img-fluid">
+                        <div class="more">more...</div>
+                    </div>
+                    <div class="content">
+                        <h2>card-1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum exercitationem
+                            fugit illum incidunt inventore optio quasi, sit. Fuga, reprehenderit.</p>
+                        <div class="less">less...</div>
+                    </div>
+                </div>
+
+                <div class="card card-Gallery">
+                    <div class="img-box">
+                        <img src="images/img-4.jpg" alt="" class="img-fluid">
+                        <div class="more">more...</div>
+                    </div>
+                    <div class="content">
+                        <h2>card-1</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolorum exercitationem
+                            fugit illum incidunt inventore optio quasi, sit. Fuga, reprehenderit.</p>
+                        <div class="less">less...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- card Gallery end -->
+    </div>
+    <!-- Gallery end -->
+
+
+    <!-- scrollbar start -->
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <!-- scrollbar end -->
+
+    <!-- scroll to top start -->
+    <button id="ScrollToTop">
+        <ion-icon name="arrow-up-outline" id="ScrollToTopIcon"></ion-icon>
+    </button>
+    <!-- scroll to top end -->
+
+
+    <!-- our product start -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="container d-flex justify-content-center my-3">
+                    <h5 class="mx-3 mt-2 Easy-buy text-capitalize">our products
+                    </h5>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-between m-2">
+                <div class="col-12 col-md-6 text-light">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-start my-2 p-2 brand-item"><ion-icon
+                                name="checkmark-outline" class="product-item-icon"></ion-icon>
+                            <h5 class="product-item-text text-capitalize">woman clothes</h5>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-start my-2 p-2 brand-item"><ion-icon
+                                name="checkmark-outline" class="product-item-icon"></ion-icon>
+                            <h5 class="product-item-text text-capitalize">men</h5>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-start my-2 p-2 brand-item"><ion-icon
+                                name="checkmark-outline" class="product-item-icon"></ion-icon>
+                            <h5 class="product-item-text text-capitalize">children</h5>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-start my-2 p-2 brand-item"><ion-icon
+                                name="checkmark-outline" class="product-item-icon"></ion-icon>
+                            <h5 class="product-item-text text-capitalize">comestics</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 p-4">
+                    <div class="img-box-brand d-flex align-items-center justify-content-center">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/10.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/13.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/26.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="img/30.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img-4.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="images/img-6.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our product end -->
+
+
+    <!-- about us start -->
+    <section class="inventory-section py-3" id="inventory">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-center my-1 ">
+                    <h5 class="mx-3 my-2 Easy-buy text-capitalize">about us</h5>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-6 col-lg-3 text-center my-2">
+                    <a class="inventory-icon rounded-circle  p-2 my-2">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                    </a>
+                    <h6 class="text-uppercase text-white  mt-3">BuY</h6>
+                    <div class="underline">
+                    </div>
+                    <p class="w-75 mx-auto text-white ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                        id?
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 text-center my-2">
+                    <a class="inventory-icon rounded-circle  p-2 my-2">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </a>
+                    <h6 class="text-uppercase  mt-3 text-white ">work with us</h6>
+                    <div class="underline">
+                    </div>
+                    <p class="w-75 mx-auto text-white ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                        id?
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 text-center my-2">
+                    <a class="inventory-icon rounded-circle  p-2 my-2">
+                        <ion-icon name="flag-outline"></ion-icon>
+                    </a>
+                    <h6 class="text-uppercase  mt-3 text-white ">brands</h6>
+                    <div class="underline">
+                    </div>
+                    <p class="w-75 mx-auto text-white ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                        id?
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 text-center my-2">
+                    <a class="inventory-icon rounded-circle  p-2 my-2">
+                        <ion-icon name="mail-open-outline"></ion-icon>
+                    </a>
+                    <h6 class="text-uppercase  mt-3 text-white ">support</h6>
+                    <div class="underline">
+                    </div>
+                    <p class="w-75 mx-auto text-white ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+                        id?
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- about us end -->
+
+    <!-- signUp form start -->
+    <!-- <div class="container-fluid ">
+        <div class="row d-flex align-items-center ">
+            <div class="col-12 col-md-7 mb-5 ">
+                <div class="content " id="signUpForm"> -->
+
+    <!--content inner-->
+    <!-- <div class="content__inner ">
+
+                        <div class="container"> -->
+
+    <!--multisteps-form-->
+    <!--progress bar start-->
+
+    <!-- <div class="row">
+                                <div class="col-12 d-flex flex-wrap justify-content-center my-1 ">
+                                    <h5 class="mx-3 my-2 Easy-buy text-capitalize animate__animated wow animate__flash">
+                                        signup form</h5>
+                                </div> -->
+    <!-- <div class="col-12 col-md-8 mb-4 mr-auto ml-auto">
+                                    <div class="multisteps-form__progress">
+                                        <button class="multisteps-form__progress-btn js-active" type="button"
+                                            title="User Info">
+                                            <h6>User Info</h6>
+                                        </button> -->
+    <!-- <button class="multisteps-form__progress-btn" type="button"
+                                            title="Address">UserName</button>
+                                        <button class="multisteps-form__progress-btn " type="button"
+                                            title="Order Info">Password</button> -->
+    <!-- <button class="multisteps-form__progress-btn" type="button" title="Comments">Comments</button> -->
+    <!-- </div>
+                                </div>
+                            </div> -->
+    <!--progress bar end-->
+    <!--form panels-->
+    <!-- <div class="row">
+                                <div class="col-12 col-md-8 m-auto">
+                                    <div class="multisteps-form">
+                                        <form class="multisteps-form__form"> -->
+    <!--single form panel-->
+    <!-- <div class="multisteps-form__panel p-4 rounded bg-white js-active"
+                                                data-animation="slideHorz">
+                                                <h3 class="multisteps-form__title">Sign Up</h3>
+                                                <div class="multisteps-form__content">
+                                                    <div class="form-row mt-4"> -->
+    <!-- <div class="col-12 col-sm-6">
+                                                            <input class="multisteps-form__input form-control"
+                                                                id="firstName" type="text" placeholder="First Name" />
+                                                            <small class="text-danger" id="Err-firstName"></small>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6  mt-4 mt-sm-0">
+                                                            <input class=" multisteps-form__input form-control"
+                                                                id="lastName" type="text" placeholder="Last Name" />
+                                                            <small class=" text-danger" id="Err-lastName"></small>
+                                                        </div>
+                                                    </div>
+                                                    <div class="button-row d-flex mt-4">
+                                                        <button class="btn btn-primary ml-auto js-btn-next"
+                                                            type="button" title="Next">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+
+    <!--single form panel-->
+    <!-- <div class="multisteps-form__panel  p-4 rounded bg-white"
+                                                data-animation="slideHorz">
+                                                <h3 class="multisteps-form__title">UserName</h3>
+                                                <div class="multisteps-form__content">
+                                                    <div class="form-row mt-4">
+                                                        <div class="col-12 col-sm-6 ">
+                                                            <input class="multisteps-form__input form-control"
+                                                                type="text" placeholder="UserName" id="UserName" />
+                                                            <small class=" text-danger" id="Err-UserName"></small>
+                                                        </div> -->
+    <!-- <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                                            <input class="multisteps-form__input form-control"
+                                                                type="email" placeholder="Email" id="User-Email" />
+                                                            <small class=" text-danger" id="Err-User-Email"></small>
+                                                        </div>
+                                                    </div> -->
+
+    <!-- <div class="button-row d-flex mt-4">
+                                                        <button class="btn btn-primary js-btn-prev" type="button"
+                                                            title="Prev">Prev</button>
+                                                        <button class="btn btn-primary ml-auto js-btn-next"
+                                                            type="button" title="Next">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+    <!--single form panel-->
+
+    <!--single form panel-->
+    <!-- <div class="multisteps-form__panel  p-4 rounded bg-white"
+                                                data-animation="slideHorz">
+                                                <h3 class="multisteps-form__title">Password</h3>
+                                                <div class="multisteps-form__content">
+                                                    <div class="form-row mt-4">
+                                                        <div class="col-12 col-sm-6">
+                                                            <input class="multisteps-form__input form-control"
+                                                                type="password" placeholder="Password" id="User-Pass" />
+                                                            <span class="text-danger" id="Err-Pass"></span>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                                            <input class="multisteps-form__input form-control"
+                                                                type="password" placeholder="Repeat Password" />
+                                                        </div> -->
+    <!-- </div>
+                                                    <div class="button-row d-flex mt-4">
+                                                        <button class="btn btn-primary js-btn-prev" type="button"
+                                                            title="Prev">Prev</button>
+                                                        <button
+                                                            class="btn btn-primary ml-auto js-btn-next last-btn-submit-form"
+                                                            type="button" title="Next">Next</button>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+    <!--single form panel-->
+    <!-- </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    <!-- <div class="col-12 col-md-4  d-flex align-items-center justify-content-center mt-md-5">
+                <div class="container">
+                    <div class="card rules-card">
+                        <div class="card-header">
+                            <h5 class="text-center text-danger">Rules</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="col-12 text-center p-2"><ion-icon class="rules-icon"
+                                    name="checkmark-done-outline"></ion-icon><span>Lorem ipsum dolor sit.</span></div>
+                            <div class="col-12 text-center p-2"><ion-icon class="rules-icon"
+                                    name="checkmark-done-outline"></ion-icon><span>Lorem ipsum dolor sit.</span></div>
+                            <div class="col-12 text-center p-2"><ion-icon class="rules-icon"
+                                    name="checkmark-done-outline"></ion-icon><span>Lorem ipsum dolor sit.</span></div>
+                            <div class="col-12 text-center p-2"><ion-icon class="rules-icon"
+                                    name="checkmark-done-outline"></ion-icon><span>Lorem ipsum dolor sit.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- signUp form end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container-fluid">
+            <!-- email section start -->
+            <section class="border-dark border-bottom border-top">
+                <div class="container pt-4 ">
+                    <div class="d-flex justify-content-center p-1">
+                        <h4 class="text-capitalize text-light">
+                            <strong>Find out
+                                about our discounts</strong>
+                        </h4>
+                    </div>
+                    <div class="row p-5 ">
+                        <div class="col-md-7 col-sm-12 mb-3 mb-sm-0">
+                            <div class="input-group w-100">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                </div>
+                                <input type="email" class="form-control Customer-Email" placeholder="enter your email"
+                                    id="Customer-Email">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <span class="text-light" id="Email-alert"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <button type="submit" class="btn w-100 send-email text-capitalize">submit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- email section end -->
+            <div class="row">
+                <div class="col-12 p-3">
+                    <div class="row">
+                        <div class="col-md-9 col-6">
+                            <div class="row px-3">
+                                <a href="#" class="col-12 p-2 text-capitalize text-light footer-item">about
+                                    us</a>
+                                <a href="#" class="col-12 p-2 text-capitalize text-light footer-item">work
+                                    with us</a>
+                                <a href="#" class="col-12 p-2 text-capitalize text-light footer-item"><ion-icon
+                                        name="call-outline"></ion-icon> Tell:(+98)9307575598</a>
+                                <a href="#" class="col-12 p-2 text-capitalize text-light footer-item"><ion-icon
+                                        name="mail-outline"></ion-icon> Email: Elahe.Fahmideh@gmail.com</a>
+                                <a href="#"
+                                    class="col-12 p-2 text-capitalize text-muted footer-item">address:Iran-Tehran</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 d-flex justify-content-end">
+                            <ion-icon name="call-outline" class="p-2 footer-icon"></ion-icon>
+                            <ion-icon name="logo-instagram" class="p-2 footer-icon"></ion-icon>
+                            <ion-icon name="logo-facebook" class="p-2 footer-icon"></ion-icon>
+                            <ion-icon name="logo-rss" class="p-2 footer-icon"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-muted d-flex justify-content-center align-items-center">
+                            <span>Copyright @ 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="product-page/Js/jquery-cookie/src/jquery.cookie.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="Js/Script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+
+</body>
+
+</html>

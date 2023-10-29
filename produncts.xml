@@ -1,0 +1,57 @@
+<products>
+
+<product>
+<Name>lipstick</Name>
+<description>To make the lips shine</description>
+<price>20$</price>
+</product>
+
+<product>
+<Name>mascara</Name>
+<description>For the beauty of eyelashes</description>
+<price>40$</price>
+</product>
+
+<product>
+<Name>crayon</Name>
+<description>For the beauty of eyebrows</description>
+<price>25$</price>
+</product>
+
+<product>
+<Name>Highlighter</Name>
+<description>For the beauty of the cheeks</description>
+<price>60$</price>
+</product>
+
+<product>
+<Name>Primer</Name>
+<description>For face makeup</description>
+<price>70$</price>
+</product>
+
+<product>
+<Name>blusher</Name>
+<description>For the beauty of the cheeks</description>
+<price>25$</price>
+</product>
+
+<product>
+<Name>brush</Name>
+<description>used for makeup</description>
+<price>10$</price>
+</product>
+
+<product>
+<Name>false eyelash</Name>
+<description>used for eyes</description>
+<price>22$</price>
+</product>
+
+<product>
+<Name>false eyelash</Name>
+<description>used for eyes</description>
+<price>22$</price>
+</product>
+
+</products>
