@@ -1,5 +1,3 @@
-
-
 <h1 align="center">ajax shop</h1>
 
 
