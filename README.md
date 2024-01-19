@@ -3,7 +3,7 @@
 
 ![demo](https://github.com/Ela-Fhd/ajax-shop/blob/main/img/demo.png)
 
-  - &#128204;<a href="http://elahe.uno/ajax-shop" >Demo</a>
+  - &#128204;<a href="https://elahefahmideh.ir/ajax-shop/" >Demo</a>
   - 🙋‍♀️Developed by Elahe Fahmideh
   - 📆Created : september 2023
   - &#x2714;Technologies : Html , Css , javascript , jQuery , Ajax
